@@ -110,7 +110,7 @@ class ProcessDataManager:
                     
                 except (psutil.NoSuchProcess, psutil.AccessDenied):
                     continue
-                    
+                                    
         except Exception as e:
             logger.error(f"Process iteration error: {str(e)}")
         
